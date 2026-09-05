@@ -38,6 +38,14 @@ though it will also disable all the `*Buf` types.
 
 <!-- cargo-rdme end -->
 
+## Organisation fork
+
+The `bloudraadpdf` fork selects a full Git revision of its `str-newtype-rs` fork.
+That fork uses `thiserror` 2.0.18 and the upstream 3.0 string conversion API.
+Do not add a Cargo patch or copy dependency source into this repository.
+Run `mise install`, then `just check`, before you publish a change.
+The test command creates a local `Cargo.lock`. Do not commit this file.
+
 ## License
 
 Licensed under either of
