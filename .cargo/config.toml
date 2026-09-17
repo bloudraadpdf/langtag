@@ -1,0 +1,3 @@
+# Use Git to access the configured SSH agent.
+[net]
+git-fetch-with-cli = true
