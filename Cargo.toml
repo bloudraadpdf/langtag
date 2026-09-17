@@ -22,7 +22,7 @@ std = []
 serde = ["dep:serde"]
 
 [dependencies]
-str-newtype = { git = "ssh://git@git.bloudraad.io/external/str-newtype-rs.git", rev = "7edce819840799c1b7fc5667273337e5eb9970ec" }
+str-newtype = { git = "ssh://git@git.bloudraad.io/external/str-newtype-rs.git", rev = "9d66d86dea6f03ff55084bfbf05db3fc5116f8aa" }
 static-automata = "1.0.2"
 thiserror = { version = "2.0.18", default-features = false }
 serde = { version = "1.0", features = ["derive"], optional = true }
